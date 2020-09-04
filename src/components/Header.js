@@ -3,6 +3,7 @@ import "./Header.css";
 import PersonIcon from "@material-ui/icons/Person";
 import ForumIcon from "@material-ui/icons/Forum";
 import IconButton from "@material-ui/core/IconButton";
+import logo from "./tindev.logo.png";
 
 function Header() {
 	return (
@@ -11,11 +12,7 @@ function Header() {
 				<PersonIcon className="header__icon" fontSize="large" />
 			</IconButton>
 
-			<img
-				className="header__logo"
-				src="https://dataprot.net/wp-content/uploads/2020/01/Tinder-logo.jpg"
-				alt="tinder logo"
-			/>
+			<img className="header__logo" src={logo} alt="tindev logo" />
 			<IconButton>
 				<ForumIcon className="header__icon" fontSize="large" />
 			</IconButton>
