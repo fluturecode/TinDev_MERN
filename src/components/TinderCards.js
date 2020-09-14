@@ -26,13 +26,18 @@ function Card() {
 					key={person.name}
 					preventSwipe={["up", "down"]}
 					onSwipe={(dir) => SwipeableDrawer(dir, person.name)}
-					onCardLeftScreen={() => OutofFrame(person.name)}
+					// onCardLeftScreen={() => OutofFrame(person.name)}
 				>
 					<div
 						style={{ backgroundImage: `url(${person.url}}` }}
 						className="card"
 					>
 						<h3>{person.name}</h3>
+						<div className="person__info">
+							<h4>GitHub Link: {person.git}</h4>
+							<h4>Programming Language: {person.language}</h4>
+							<h4>For Hire: {person.forHire}</h4>
+						</div>
 					</div>
 				</TinderCard>
 			))}

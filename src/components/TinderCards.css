@@ -8,12 +8,28 @@
 	background-size: cover;
 	background-position: center;
 	box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+	padding-bottom: 50px;
 }
 
 .card > h3 {
 	position: absolute;
-	bottom: 10px;
 	color: white;
+	font-size: 34px;
+}
+
+.person__info {
+	margin-top: 360px;
+	background-color: rgb(241, 232, 232);
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 120%;
+}
+
+.card > h4 {
+	color: white;
+	margin-bottom: 10px;
 }
 
 .tinderCards__cardContainer {
@@ -24,4 +40,8 @@
 
 .swipe {
 	position: absolute;
+}
+
+* {
+	font-family: "Verdana";
 }

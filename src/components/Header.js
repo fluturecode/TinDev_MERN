@@ -13,6 +13,7 @@ function Header() {
 			</IconButton>
 
 			<img className="header__logo" src={logo} alt="tindev logo" />
+
 			<IconButton>
 				<ForumIcon className="header__icon" fontSize="large" />
 			</IconButton>
