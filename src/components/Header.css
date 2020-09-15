@@ -9,10 +9,6 @@
 	object-fit: contain;
 }
 
-.header > h3 {
-	display: block;
-}
-
 .header__icon {
 	padding: 20px;
 }

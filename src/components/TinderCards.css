@@ -18,13 +18,14 @@
 }
 
 .person__info {
-	margin-top: 360px;
+	margin-top: 320px;
 	background-color: rgb(241, 232, 232);
 	border-radius: 10px;
 	padding-left: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	line-height: 120%;
+	position: relative;
 }
 
 .card > h4 {
